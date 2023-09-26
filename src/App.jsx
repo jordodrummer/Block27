@@ -7,7 +7,7 @@ export default function App() {
 const [token, setToken] = useState(null)
 
   return (
-    <>      <h1>React Forms</h1>
+    <>      <h1>React Forms!</h1>
             <SignUpForm setToken={setToken}/>
             <Authenticate token={token}/>
     </>
